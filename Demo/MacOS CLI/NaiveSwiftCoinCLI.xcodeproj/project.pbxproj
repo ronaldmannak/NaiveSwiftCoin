@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75C507A20A8F79C00014D60 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C507920A8F79C00014D60 /* main.swift */; };
+		C75C513E20A8FD8900014D60 /* P2PMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512320A8FD8800014D60 /* P2PMessages.swift */; };
+		C75C513F20A8FD8900014D60 /* Bonjour+MCSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512420A8FD8800014D60 /* Bonjour+MCSessionDelegate.swift */; };
+		C75C514020A8FD8900014D60 /* Bonjour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512520A8FD8800014D60 /* Bonjour.swift */; };
+		C75C514120A8FD8900014D60 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512620A8FD8800014D60 /* Peer.swift */; };
+		C75C514220A8FD8900014D60 /* TxInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512820A8FD8800014D60 /* TxInput.swift */; };
+		C75C514320A8FD8900014D60 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512920A8FD8800014D60 /* Transaction.swift */; };
+		C75C514420A8FD8900014D60 /* TxOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512A20A8FD8800014D60 /* TxOutput.swift */; };
+		C75C514520A8FD8900014D60 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512C20A8FD8800014D60 /* Account.swift */; };
+		C75C514620A8FD8900014D60 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512D20A8FD8800014D60 /* Wallet.swift */; };
+		C75C514720A8FD8900014D60 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C512F20A8FD8800014D60 /* Block.swift */; };
+		C75C514820A8FD8900014D60 /* Blockchain+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513020A8FD8800014D60 /* Blockchain+Validation.swift */; };
+		C75C514920A8FD8900014D60 /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513120A8FD8800014D60 /* Blockchain.swift */; };
+		C75C514A20A8FD8900014D60 /* Blockchain+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513220A8FD8800014D60 /* Blockchain+Collection.swift */; };
+		C75C514B20A8FD8900014D60 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513420A8FD8800014D60 /* SHA256.swift */; };
+		C75C514C20A8FD8900014D60 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513520A8FD8800014D60 /* Key.swift */; };
+		C75C514D20A8FD8900014D60 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513720A8FD8800014D60 /* Array.swift */; };
+		C75C514E20A8FD8900014D60 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513820A8FD8900014D60 /* Data.swift */; };
+		C75C514F20A8FD8900014D60 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513920A8FD8900014D60 /* Error.swift */; };
+		C75C515020A8FD8900014D60 /* UInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513A20A8FD8900014D60 /* UInt64.swift */; };
+		C75C515120A8FD8900014D60 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513B20A8FD8900014D60 /* Typealias.swift */; };
+		C75C515220A8FD8900014D60 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C513C20A8FD8900014D60 /* String.swift */; };
+		C78FB7E020A91187003415F6 /* Blockchain+Utxos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FB7DF20A91187003415F6 /* Blockchain+Utxos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C75C507420A8F79C00014D60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C75C507620A8F79C00014D60 /* NaiveSwiftCoinCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NaiveSwiftCoinCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75C507920A8F79C00014D60 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C75C512320A8FD8800014D60 /* P2PMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2PMessages.swift; sourceTree = "<group>"; };
+		C75C512420A8FD8800014D60 /* Bonjour+MCSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bonjour+MCSessionDelegate.swift"; sourceTree = "<group>"; };
+		C75C512520A8FD8800014D60 /* Bonjour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bonjour.swift; sourceTree = "<group>"; };
+		C75C512620A8FD8800014D60 /* Peer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
+		C75C512820A8FD8800014D60 /* TxInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxInput.swift; sourceTree = "<group>"; };
+		C75C512920A8FD8800014D60 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		C75C512A20A8FD8800014D60 /* TxOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxOutput.swift; sourceTree = "<group>"; };
+		C75C512C20A8FD8800014D60 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		C75C512D20A8FD8800014D60 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		C75C512F20A8FD8800014D60 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		C75C513020A8FD8800014D60 /* Blockchain+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Blockchain+Validation.swift"; sourceTree = "<group>"; };
+		C75C513120A8FD8800014D60 /* Blockchain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blockchain.swift; sourceTree = "<group>"; };
+		C75C513220A8FD8800014D60 /* Blockchain+Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Blockchain+Collection.swift"; sourceTree = "<group>"; };
+		C75C513420A8FD8800014D60 /* SHA256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
+		C75C513520A8FD8800014D60 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		C75C513720A8FD8800014D60 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		C75C513820A8FD8900014D60 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C75C513920A8FD8900014D60 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		C75C513A20A8FD8900014D60 /* UInt64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UInt64.swift; sourceTree = "<group>"; };
+		C75C513B20A8FD8900014D60 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		C75C513C20A8FD8900014D60 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C75C513D20A8FD8900014D60 /* NaiveSwiftCoin-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NaiveSwiftCoin-Bridging-Header.h"; sourceTree = "<group>"; };
+		C78FB7DF20A91187003415F6 /* Blockchain+Utxos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Blockchain+Utxos.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75C507320A8F79C00014D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75C506D20A8F79C00014D60 = {
+			isa = PBXGroup;
+			children = (
+				C75C512120A8FD6000014D60 /* Blockchain */,
+				C75C507820A8F79C00014D60 /* NaiveSwiftCoinCLI */,
+				C75C507720A8F79C00014D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C75C507720A8F79C00014D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75C507620A8F79C00014D60 /* NaiveSwiftCoinCLI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75C507820A8F79C00014D60 /* NaiveSwiftCoinCLI */ = {
+			isa = PBXGroup;
+			children = (
+				C75C507920A8F79C00014D60 /* main.swift */,
+			);
+			path = NaiveSwiftCoinCLI;
+			sourceTree = "<group>";
+		};
+		C75C512120A8FD6000014D60 /* Blockchain */ = {
+			isa = PBXGroup;
+			children = (
+				C75C512E20A8FD8800014D60 /* Blockchain */,
+				C75C513320A8FD8800014D60 /* Crypto */,
+				C75C512220A8FD8800014D60 /* P2P */,
+				C75C512720A8FD8800014D60 /* Transaction */,
+				C75C513620A8FD8800014D60 /* Utils */,
+				C75C512B20A8FD8800014D60 /* Wallet */,
+			);
+			name = Blockchain;
+			sourceTree = "<group>";
+		};
+		C75C512220A8FD8800014D60 /* P2P */ = {
+			isa = PBXGroup;
+			children = (
+				C75C512320A8FD8800014D60 /* P2PMessages.swift */,
+				C75C512420A8FD8800014D60 /* Bonjour+MCSessionDelegate.swift */,
+				C75C512520A8FD8800014D60 /* Bonjour.swift */,
+				C75C512620A8FD8800014D60 /* Peer.swift */,
+			);
+			name = P2P;
+			path = ../../Source/P2P;
+			sourceTree = "<group>";
+		};
+		C75C512720A8FD8800014D60 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				C75C512920A8FD8800014D60 /* Transaction.swift */,
+				C75C512820A8FD8800014D60 /* TxInput.swift */,
+				C75C512A20A8FD8800014D60 /* TxOutput.swift */,
+			);
+			name = Transaction;
+			path = ../../Source/Transaction;
+			sourceTree = "<group>";
+		};
+		C75C512B20A8FD8800014D60 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				C75C512C20A8FD8800014D60 /* Account.swift */,
+				C75C512D20A8FD8800014D60 /* Wallet.swift */,
+			);
+			name = Wallet;
+			path = ../../Source/Wallet;
+			sourceTree = "<group>";
+		};
+		C75C512E20A8FD8800014D60 /* Blockchain */ = {
+			isa = PBXGroup;
+			children = (
+				C75C512F20A8FD8800014D60 /* Block.swift */,
+				C75C513120A8FD8800014D60 /* Blockchain.swift */,
+				C78FB7DF20A91187003415F6 /* Blockchain+Utxos.swift */,
+				C75C513020A8FD8800014D60 /* Blockchain+Validation.swift */,
+				C75C513220A8FD8800014D60 /* Blockchain+Collection.swift */,
+			);
+			name = Blockchain;
+			path = ../../Source/Blockchain;
+			sourceTree = "<group>";
+		};
+		C75C513320A8FD8800014D60 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				C75C513520A8FD8800014D60 /* Key.swift */,
+				C75C513420A8FD8800014D60 /* SHA256.swift */,
+			);
+			name = Crypto;
+			path = ../../Source/Crypto;
+			sourceTree = "<group>";
+		};
+		C75C513620A8FD8800014D60 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C75C513720A8FD8800014D60 /* Array.swift */,
+				C75C513820A8FD8900014D60 /* Data.swift */,
+				C75C513920A8FD8900014D60 /* Error.swift */,
+				C75C513A20A8FD8900014D60 /* UInt64.swift */,
+				C75C513B20A8FD8900014D60 /* Typealias.swift */,
+				C75C513C20A8FD8900014D60 /* String.swift */,
+				C75C513D20A8FD8900014D60 /* NaiveSwiftCoin-Bridging-Header.h */,
+			);
+			name = Utils;
+			path = ../../Source/Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75C507520A8F79C00014D60 /* NaiveSwiftCoinCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75C507D20A8F79C00014D60 /* Build configuration list for PBXNativeTarget "NaiveSwiftCoinCLI" */;
+			buildPhases = (
+				C75C507220A8F79C00014D60 /* Sources */,
+				C75C507320A8F79C00014D60 /* Frameworks */,
+				C75C507420A8F79C00014D60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaiveSwiftCoinCLI;
+			productName = NaiveSwiftCoinCLI;
+			productReference = C75C507620A8F79C00014D60 /* NaiveSwiftCoinCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75C506E20A8F79C00014D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "A Puzzle A Day";
+				TargetAttributes = {
+					C75C507520A8F79C00014D60 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = C75C507120A8F79C00014D60 /* Build configuration list for PBXProject "NaiveSwiftCoinCLI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C75C506D20A8F79C00014D60;
+			productRefGroup = C75C507720A8F79C00014D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75C507520A8F79C00014D60 /* NaiveSwiftCoinCLI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75C507220A8F79C00014D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78FB7E020A91187003415F6 /* Blockchain+Utxos.swift in Sources */,
+				C75C514620A8FD8900014D60 /* Wallet.swift in Sources */,
+				C75C514720A8FD8900014D60 /* Block.swift in Sources */,
+				C75C514320A8FD8900014D60 /* Transaction.swift in Sources */,
+				C75C514D20A8FD8900014D60 /* Array.swift in Sources */,
+				C75C513E20A8FD8900014D60 /* P2PMessages.swift in Sources */,
+				C75C507A20A8F79C00014D60 /* main.swift in Sources */,
+				C75C513F20A8FD8900014D60 /* Bonjour+MCSessionDelegate.swift in Sources */,
+				C75C514E20A8FD8900014D60 /* Data.swift in Sources */,
+				C75C514820A8FD8900014D60 /* Blockchain+Validation.swift in Sources */,
+				C75C515020A8FD8900014D60 /* UInt64.swift in Sources */,
+				C75C514A20A8FD8900014D60 /* Blockchain+Collection.swift in Sources */,
+				C75C514020A8FD8900014D60 /* Bonjour.swift in Sources */,
+				C75C515220A8FD8900014D60 /* String.swift in Sources */,
+				C75C514520A8FD8900014D60 /* Account.swift in Sources */,
+				C75C515120A8FD8900014D60 /* Typealias.swift in Sources */,
+				C75C514920A8FD8900014D60 /* Blockchain.swift in Sources */,
+				C75C514B20A8FD8900014D60 /* SHA256.swift in Sources */,
+				C75C514220A8FD8900014D60 /* TxInput.swift in Sources */,
+				C75C514C20A8FD8900014D60 /* Key.swift in Sources */,
+				C75C514420A8FD8900014D60 /* TxOutput.swift in Sources */,
+				C75C514120A8FD8900014D60 /* Peer.swift in Sources */,
+				C75C514F20A8FD8900014D60 /* Error.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C75C507B20A8F79C00014D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C75C507C20A8F79C00014D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C75C507E20A8F79C00014D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS2K96ZEMY;
+				INFOPLIST_FILE = NaiveSwiftCoinCLI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Source/Utils/NaiveSwiftCoin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C75C507F20A8F79C00014D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS2K96ZEMY;
+				INFOPLIST_FILE = NaiveSwiftCoinCLI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Source/Utils/NaiveSwiftCoin-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75C507120A8F79C00014D60 /* Build configuration list for PBXProject "NaiveSwiftCoinCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75C507B20A8F79C00014D60 /* Debug */,
+				C75C507C20A8F79C00014D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75C507D20A8F79C00014D60 /* Build configuration list for PBXNativeTarget "NaiveSwiftCoinCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75C507E20A8F79C00014D60 /* Debug */,
+				C75C507F20A8F79C00014D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75C506E20A8F79C00014D60 /* Project object */;
+}
